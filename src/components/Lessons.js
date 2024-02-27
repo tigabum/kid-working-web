@@ -54,6 +54,7 @@ const Lessons = () => {
         limitless
       </p>
       <LessonList data={lessonData} />
+      <button className=" opacity-80 my-5">Start Courses</button>
     </div>
   );
 };
