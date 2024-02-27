@@ -12,8 +12,9 @@ const App = () => {
       <Navbar />
       <div className="space-y-10">
         <Hero />
-        <Lessons /> 
-        <div class="row-span-10 p-20 ..."></div>
+        <Lessons />
+
+        <div class="row-span-10 ..."></div>
         <SummerCamp />
         <PediatricianApproved />
       </div>

@@ -3,10 +3,20 @@ module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./node_modules/tw-elements-react/dist/js/**/*.js"
+    "./node_modules/tw-elements-react/dist/js/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        "infinite-scroll": "infinite-scroll 10s linear infinite",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
+    },
     colors: {
       pink: "#fdf2f8",
       rose: "#ffe4e6",
