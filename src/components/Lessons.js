@@ -31,25 +31,13 @@ const Lessons = () => {
       description:
         "some description about lessons and adding some other descriptions related to this one without limit just add some values and texts",
     },
-    {
-      src: lesson3image,
-      date: new Date(),
-      description:
-        "some description about lessons and adding some other descriptions related to this one without limit just add some values and texts",
-    },
-    {
-      src: lesson3image,
-      date: new Date(),
-      description:
-        "some description about lessons and adding some other descriptions related to this one without limit just add some values and texts",
-    },
   ];
   return (
     <div className=" md:flex flex-col items-center">
-      <h1 className=" w-full text-center text-4xl font-bold">
+      <h1 className=" w-full text-center text-4xl font-bold font-header">
         Shop our latest videos
       </h1>
-      <p>
+      <p className="font-paragraph">
         Our videos introduce children to key life skills that empower them to be
         limitless
       </p>
