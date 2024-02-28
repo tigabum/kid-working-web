@@ -5,6 +5,7 @@ import Lessons from "./components/Lessons";
 import SummerCamp from "./components/SummerCamp";
 import PediatricianApproved from "./components/PediatricianApproved";
 import Footer from "./components/Footer";
+import Blogs from "./components/Blogs";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <div className="space-y-10">
         <Hero />
         <Lessons />
-
+        <Blogs />
         <div class="row-span-10 ..."></div>
         <SummerCamp />
         <PediatricianApproved />

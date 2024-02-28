@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/images/heroimage5.jpg";
+import heroImage from "../assets/images/img-banner.png";
 
 const Hero = () => {
   return (
@@ -11,10 +11,10 @@ const Hero = () => {
       />
       <div className="max-w-[1140px] m-auto">
         <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-black p-4">
-          <h1 className="font-bold text-4xl">
+          <h1 className="font-bold text-4xl text-pink font-header	">
             Empowering kids through entrepreneurship
           </h1>
-          <p>
+          <p className="font-paragraph">
             Our books and online programs empower kids aged 6-12 to excel in
             entrepreneurship and in life... all while putting smiles on their
             faces!

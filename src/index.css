@@ -5,6 +5,7 @@
 :root {
   --primary-dark: #000000;
   --primary-light: #404040;
+  background: #faf8f0;
 }
 
 @layer base {

@@ -9,7 +9,9 @@ const Lesson = ({ data }) => {
         alt="lesson image"
       />
       {/* <p>{data.date.toISOString()}</p> */}
-      <p className="p-2 text-black">{data.description} </p>
+      <p className="p-2 text-center w-[75%] text-black font-paragraph">
+        {data.description}{" "}
+      </p>
     </div>
   );
 };

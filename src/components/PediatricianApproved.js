@@ -24,7 +24,7 @@ function PediatricianApproved() {
         />
       </svg>
       <blockquote>
-        <p class="text-2xl italic font-medium text-black ">
+        <p class="text-2xl italic font-medium text-black font-paragraph ">
           "Lorem ipsum dolor sit amet. Qui dolor accusantium rem necessitatibus
           totam sit omnis totam quo totam beatae qui praesentium facilis. Aut
           galisum ipsa ut ipsa ratione ea Quis dolores. Qui voluptas dolor cum

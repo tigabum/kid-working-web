@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        "infinite-scroll": "infinite-scroll 10s linear infinite",
+        "infinite-scroll": "infinite-scroll 15s linear infinite",
       },
       keyframes: {
         "infinite-scroll": {
@@ -18,6 +18,7 @@ module.exports = {
       },
     },
     colors: {
+      logo: "rgba(255,247,21,255)",
       pink: "#fdf2f8",
       rose: "#ffe4e6",
       fuchisa: "#FDE2EC",
@@ -34,6 +35,11 @@ module.exports = {
       white: "#f8fafc",
       greentwo: "#15803d",
       black: "#020617",
+      header: "#5abea4",
+    },
+    fontFamily: {
+      header: ["ui-serif", "Georgia"],
+      paragraph: ["ui-monospace", "SFMono-Regular"],
     },
   },
   plugins: [require("tw-elements-react/dist/plugin.cjs")],
