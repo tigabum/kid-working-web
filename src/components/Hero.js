@@ -11,10 +11,10 @@ const Hero = () => {
       />
       <div className="max-w-[1140px] m-auto">
         <div className="absolute top-[40%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-black p-4">
-          <h1 className="font-bold text-4xl text-pink font-header	">
+          <h1 className="font-bold text-4xl text-gray-dark font-header	">
             Empowering kids through entrepreneurship
           </h1>
-          <p className="font-paragraph">
+          <p className="text-gray-dark">
             Our books and online programs empower kids aged 6-12 to excel in
             entrepreneurship and in life... all while putting smiles on their
             faces!
